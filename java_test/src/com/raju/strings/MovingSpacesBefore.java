@@ -4,7 +4,7 @@ public class MovingSpacesBefore {
 
 	public static void main(String[] args) {
 
-		String s = "this is raju m";
+		String s = "this is raju m ";
 
 		System.out.println(moveSpacesToBefore(s));
 	}
@@ -16,6 +16,7 @@ public class MovingSpacesBefore {
 
 		for (int j = i; j >= 0; j--) {
 
+			 System.out.println(c[j]+" "+c[i]);
 			if (!isSpace(c[j])) {
 				char temp = c[i];
 				c[i] = c[j];
